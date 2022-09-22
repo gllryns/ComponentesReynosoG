@@ -1,28 +1,5 @@
-<header class="container-fluid">
-  <div class="navbar">
-    <app-toolbar></app-toolbar>
-  </div>
-</header>
-
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <h4>John's Blog</h4>
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">Home</a></li>
-        <li><a href="#section2">Friends</a></li>
-        <li><a href="#section3">Family</a></li>
-        <li><a href="#section3">Photos</a></li>
-      </ul>
-      <br />
-    </div>
-  </div>
-</div>
-<div id="container">
-  <div class="sidebar">
-    <app-menu></app-menu>
-  </div>
-  <div class="body">
-    <app-contenido></app-contenido>
-  </div>
+<div class="grid-container">
+  <app-toolbar class="grid-header pb-4"></app-toolbar>
+  <app-menu class="grid-menu ps-3 bg-light"></app-menu>
+  <app-contenido class="grid-contenido"></app-contenido>
 </div>
